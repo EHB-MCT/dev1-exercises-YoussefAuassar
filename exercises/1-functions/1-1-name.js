@@ -1,7 +1,4 @@
-
 "use strict";
-
-alert('Oefening 1');
 
 let canvas = document.querySelector ("canvas");
 canvas.width = window.innerWidth;
@@ -11,18 +8,31 @@ let context = canvas.getContext("2d");
 drawName();
 
 function drawName () {
- 
-    context.lineWidth = 7;
+
+    // Letter Y
+
+    context.lineWidth = 5;
     context.strokeStyle = 'red';
     context.beginPath();
-    context.moveTo(50, 100);
-    context.lineTo(200, 300);
-    
-    context.lineTo(400, 100);
-
-    context.lineTo(100, 400);
-
+    context.moveTo(100, 150);
+    context.lineTo(180, 300);
+    context.lineTo(300, 150);
+    context.lineTo(20,500);
     context.stroke();
+
+    // Letter O
+
+    context.beginPath();
+    context.arc(350, 325, 70, 0, 2 * Math.PI);
+    context.stroke();
+
+    // Letter U
+
+    
+
+
+
+
 
     
 
