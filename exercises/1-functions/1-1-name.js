@@ -29,18 +29,6 @@ function drawName () {
     // Letter U
 
     
-
-
-
-
-
-    
-
-
-
-
-
- 
-     
+   
 }
 
