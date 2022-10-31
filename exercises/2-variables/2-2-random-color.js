@@ -26,6 +26,8 @@ function drawSquare(){
 context.fillStyle = color;
 context.fillRect(randomX, randomY, 200, 200);
 
+
+
 }
 
 

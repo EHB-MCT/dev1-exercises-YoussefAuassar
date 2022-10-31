@@ -5,30 +5,44 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let context = canvas.getContext("2d");
 
+
 drawName();
 
 function drawName () {
 
     // Letter Y
 
-    context.lineWidth = 5;
-    context.strokeStyle = 'red';
     context.beginPath();
-    context.moveTo(100, 150);
-    context.lineTo(180, 300);
-    context.lineTo(300, 150);
-    context.lineTo(20,500);
+
+    context.moveTo(100,200);
+    context.lineTo(200,400);
+
+    context.moveTo(200,400);
+    context.lineTo(300,200);
+
+    context.moveTo(200,400);
+    context.lineTo(200,600);
+
     context.stroke();
 
     // Letter O
 
     context.beginPath();
-    context.arc(350, 325, 70, 0, 2 * Math.PI);
+
+    context.arc(400,450,100,0,Math.PI*2);
+
     context.stroke();
 
     // Letter U
 
     
-   
+
+
+
+    
+
+    
+
+
 }
 

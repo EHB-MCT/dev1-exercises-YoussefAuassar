@@ -21,9 +21,6 @@ function drawLines () {
     context.moveTo(margin, spacing);
     context.lineTo(width - margin , spacing);
     
-    
 
-
-    
    
 }
