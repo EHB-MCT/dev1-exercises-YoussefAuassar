@@ -1,6 +1,7 @@
 "use strict";
 
 /** @type {CanvasRenderingContext2D} */
+
 let context;
 
 getCanvasContext();
@@ -11,7 +12,7 @@ function getCanvasContext() {
     let canvas = document.querySelector ("canvas");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    let context = canvas.getContext("2d");
+    context = canvas.getContext("2d");
 
 
 }
