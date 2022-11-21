@@ -44,3 +44,10 @@ export function fillRect (x, y, x1, y1) {
     context.fillRect(x, y, x1, y1);
     context.fillStyle = "rgb(x, x, x,)";
 }
+
+export function drawLine (x1, y1, x2, y2) {
+    context.beginPath();
+    context.moveTo(x1, y1);
+    context.lineTo(x2, y2);
+    context.stroke();
+}
